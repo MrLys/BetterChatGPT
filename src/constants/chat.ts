@@ -30,6 +30,12 @@ export const modelOptions: ModelOptions[] = [
   'gpt-4-turbo-2024-04-09',
   'gpt-4o',
   'gpt-4o-2024-05-13',
+  'o1-preview',
+  'o1-preview-2024-09-12',
+  'o1-mini',
+  'o1-mini-2024-09-12',
+  'gpt-4o-mini',
+  'gpt-4o-mini-2024-07-18',
   // 'gpt-3.5-turbo-0301',
   // 'gpt-4-0314',
   // 'gpt-4-32k-0314',
@@ -57,6 +63,12 @@ export const modelMaxToken = {
   'gpt-4-turbo-2024-04-09': 128000,
   'gpt-4o': 128000,
   'gpt-4o-2024-05-13': 128000,
+  'o1-preview': 128000,
+  'o1-preview-2024-09-12': 128000,
+  'o1-mini': 128000,
+  'o1-mini-2024-09-12': 128000,
+  'gpt-4o-mini': 128000,
+  'gpt-4o-mini-2024-07-18': 128000,
 };
 
 export const modelCost = {
@@ -133,6 +145,30 @@ export const modelCost = {
     completion: { price: 0.015, unit: 1000 },
   },
   'gpt-4o-2024-05-13': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'o1-preview': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'o1-preview-2024-09-12': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'o1-mini': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'o1-mini-2024-09-12': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'gpt-4o-mini': {
+    prompt: { price: 0.005, unit: 1000 },
+    completion: { price: 0.015, unit: 1000 },
+  },
+  'gpt-4o-mini-2024-07-18': {
     prompt: { price: 0.005, unit: 1000 },
     completion: { price: 0.015, unit: 1000 },
   },
